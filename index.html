@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- PAGE settings -->
+  <link rel="icon" href="favicon.png">
+  <title>Landing</title>
+  <meta name="description" content="An Analysis Tool for Smart Contracts">
+  <meta name="keywords" content="Smart contract, security, verification">
+  <meta name="author" content="Loi Luu">
+  <!-- CSS dependencies -->  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">  
+  <link rel="stylesheet" href="wireframe.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="">
+  <nav class="navbar navbar-expand-md navbar-dark bg-info">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center justify-content-between" id="navbar2SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="https://kyber.network">Kyber Network</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="https://github.com/melonproject/oyente">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="https://oyente.github.io/benchmarks/">Benchmarks</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="h-50 d-flex align-items-center bg-info">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto text-center col-md-6">
+          <h1 class="display-1 text-white">Oyente</h1>
+          <p class="lead text-primary">An Analysis Tool for Smart Contracts</p>
+        </div>
+
+        <div class="col-md-12 text-center">            
+              <a href="https://github.com/melonproject/oyente" class="btn btn-primary">Github</a>
+              <a href="https://oyente.melonport.com/" class="btn btn-primary">Live Tool</a>
+              <a href="https://loiluu.com/papers/oyente.pdf" class="btn btn-primary">Technical Paper</a>            
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="">Smart contracts are fundamentally full-fledged programs that run on blockchains. These "contracts" are automatically executed when specified requirements are met. With the steady rise in the adoption of smart contracts - Ethereum's system supports
+            tens of thousands of contracts-, these contracts hold millions of dollars (ever increasing) worth of virtual coins. </p>
+          <p class="">The projected rise in the adoption of smart contracts means that the value being processed by these contracts will also increase. As with anything of value, the relationship between risk and reward is directly proportional. An increase in reward
+            (access to value) results in greater risks (whether inherent or external). We have already observed situations where an adversary can manipulate smart contract execution to gain profits. The exploitation of the structural vulnerabilities suggest
+            that there are bugs that can compromise the security of the platform. It also indicates the existence of subtle gaps in the understanding of the distributed semantics of the underlying platform. </p>
+          <p class="">We built a symbolic execution tool called Oyente to find potential security bugs in contracts written by developers for the existing Ethereum system. Our objective for Oyente is to increase the security of the smart contracts by identifying
+            vulnerabilities which will allow developers to mitigate the identified risks. Of the 19,366 existing Ethereum contracts, Oyente flags 8,833 of them as vulnerable, including the DAO bug which led to a USD 60 million loss in June 2016. </p>
+          <p class="">Risk is often the main barrier of entry for mainstream adoption. As the decentralized ecosystem grows, the need for enhanced security will only become ever more critical. If the vision of a decentralized world is ever to become reality, we first
+            need to ensure that a decentralized world is not a threat but rather, a natural progression. For that to happen, risks must first be minimized. </p>          
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Publications &amp; Media</h1>
+          <ul class="">
+            <li>
+            <a href="http://www.comp.nus.edu.sg/~loiluu/papers/oyente.pdf"> Making Smart Contracts Smarter</a>
+            <br/>
+            Loi Luu,  Duc-Hiep Chu, Hrishi Olickel, Prateek Saxena, Aquinas Hobor
+            <br/>
+            <cite>ACM Conference on Computer and Communications Security</cite> (<a href="http://www.sigsac.org/ccs/CCS2015/">CCS 2016 </a>)
+            </br>
+            [<a href="http://eprint.iacr.org/2016/633">Online Eprint</a>] &nbsp;&nbsp;&nbsp;
+            [<a href="https://www.youtube.com/watch?v=EIEB_FKZLEE">Online Talk</a>] &nbsp;&nbsp;&nbsp;
+            [Acc Rate: 16.48%]            
+          </li>
+          
+            <li>
+              <a href="https://www.reddit.com/r/ethereum/comments/4p52qd/new_paper_making_smart_contracts_smarter/">Reddit post</a>
+            </li>
+            <li>
+              <a href="http://www.coindesk.com/smart-contract-debugger-debut-ethereum-conference/">CoinDesk</a>
+            </li>
+            <li> Loi Luu presented Oyente at
+              <a href="https://ethereumfoundation.org/devcon/">Ethereum Devcon 2</a>, Shanghai, September 2016. [<a href="https://www.youtube.com/watch?v=bCvh6ED-cj0">video</a>]</li>
+            <li> Loi Luu presented Oyente at
+              <a href="https://ethereumfoundation.org/devcon/">Ethereum Devcon 3</a>, Cancun, November 2017. [<a href="https://www.youtube.com/watch?v=IF27FclTq3s">video</a>]</li>
+            <li>
+              <a href="https://www.ethnews.com/melonport-and-oyente-release-bug-checking-tool">ETH News</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Awesome Projects Using Oyente</h1>
+          <ul class="">
+            <li>
+              <a href="https://www.reddit.com/r/ethereum/comments/4p52qd/new_paper_making_smart_contracts_smarter/">Melonport</a>
+            </li>
+            <li>
+              <a href="http://www.coindesk.com/smart-contract-debugger-debut-ethereum-conference/">Augur</a>
+            </li>
+            <li>
+              <a href="https://ethereumfoundation.org/devcon/">Quantstamp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+
+</html>

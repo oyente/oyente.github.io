@@ -1,0 +1,82 @@
+body{
+	margin-left: auto; 
+	margin-right: auto; 	
+}
+
+
+@media (min-width: 800px){
+	.img{	
+		/*border-width: 1px; */
+		/*border-style: solid; */
+		margin-top: 10px;
+		float: left; 
+		/*box-shadow: 5px 5px 2px rgb(136, 136, 136); */
+		max-width: 200px;			
+	}	
+	
+}
+@media (max-width: 800px){
+	.img{	
+		display: none;
+	}
+}
+
+
+[class*="span"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+h3:before {
+    content: "";
+  	display: inline-block;
+  	width: 10px;
+  	height: 10px;
+  	margin-right: 5px;
+    background: #666;
+}
+
+.name{
+	font-family:georgia,serif;
+	/*font-size: 40px;*/
+}
+
+#info{	
+	padding-left: 20px;
+}
+
+cite{
+	font-style: italic;
+}
+
+p.new{
+	font-style: italic;
+	color: #FF0000;
+}
+
+
+#site-navbar ul{
+	list-style-type: none;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.page-section li{	
+	margin-right: 15px;
+	display: inline;
+}
+
+#publications li {
+   margin-bottom: 1px;
+}
+
+#publications li + li {
+  margin-top: 1em;
+}
+
+a.conf{
+	font-style: bold;
+	color: #FF0000;
+}
